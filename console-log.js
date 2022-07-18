@@ -11,4 +11,8 @@ console.log(7 + 7);
 console.log(1561 - 282);
 console.log(69 / 9)
 console.log(3 * 5)
-// String Concatenation
+// String Concatenation-thinkl math, but with words
+console.log('hi' + 'ya')
+console.log('work ' + 'place')
+console.log('wild' + ' fire')
+// Properties
