@@ -16,3 +16,6 @@ console.log('hi' + 'ya')
 console.log('work ' + 'place')
 console.log('wild' + ' fire')
 // Properties
+// Length
+console.log('Scouse, not English'.length)
+console.log('      Fire Up Chips      '.trim())
