@@ -24,7 +24,7 @@ console.log(Math.random())
 console.log(Math.random(Math.floor) *50)
 // Variables- container for a value
 // Creating a variable-var
-// Var is a variable that cannot be reassigned
+// Var is a variable that cannot be reassigned a different value
 const myName = 'Greg';
 console.log(myName);
 
@@ -36,6 +36,15 @@ console.log(numOfPieces);
 console.log(favoriteSubs);
 // Creating a variable-let
 // Let means the variable can be reassigned a different value
+let blueBayou = false
+// in the above example, I'm saying that blueBayou will never be reassigned
+let bobsBurgers = false
+
+bobsBurgers = true
+
+console.log(bobsBurgers);
+// In the above example, I started bobsBurgers as false, but then changed it to true. As the console will register the true statement last, it will register as true
+
 
 
 
