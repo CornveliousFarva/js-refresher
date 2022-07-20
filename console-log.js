@@ -45,6 +45,9 @@ bobsBurgers = true
 console.log(bobsBurgers);
 // In the above example, I started bobsBurgers as false, but then changed it to true. As the console will register the true statement last, it will register as true
 
+// Variables - const
+// Const is basically the ES6 equivalent of var
+const entree = 'salad'
+console.log(entree)
 
-
-
+// Unlike let, consts cannot be alterered
