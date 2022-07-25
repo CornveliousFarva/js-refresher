@@ -51,3 +51,48 @@ const entree = 'salad'
 console.log(entree)
 
 // Unlike let, consts cannot be alterered
+
+// MATHEMATICAL OPERATORS
+// Addition
+let w = 1
+w += 1
+// Subtraction
+let x = 1
+x -= 1
+// Multiplication 
+let y = 1
+y *= 1
+// Division
+let z = 1
+z /= 1
+
+// INCREMENT AND DECREMENT OPERATORS
+// Increment
+let a = 10;
+a++;
+console.log(a); // Output: 11
+// Decrement
+let b = 20;
+b--;
+console.log(b); // Output: 19
+
+// STRING CONCATENATION WITH VARIABLES
+// This has more to do with adding words, or strings 
+
+let myPet = 'armadillo';
+console.log('I own a pet ' + myPet + '.'); 
+// Output: 'I own a pet armadillo.'
+// In the above example, we have armadillo as what myPet represnts and we are adding it into the console log
+
+// STRING INTERPOLATION
+// String interpolation is inserting, or interpolating variables into stages using template literals
+
+const myPet = 'armadillo';
+console.log(`I own a pet ${myPet}.`);
+// Output: I own a pet armadillo.
+// In the above example, a template literal is wrapped in backticks
+// Inside of the TL, there is a placeholder, ${myPet}. The value of myPet is then inserted into the TL
+// When you interpolate `I own a pet ${myPet}.`, the output is the string: 'I own a pet armadillo.'
+// The benefit of this is readability. Using template literals, you don't have to worry about using the wrong quote marks and it's easier to tell what the new string will be
+
+// Typeof operator
