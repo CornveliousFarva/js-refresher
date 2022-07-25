@@ -96,3 +96,13 @@ console.log(`I own a pet ${myPet}.`);
 // The benefit of this is readability. Using template literals, you don't have to worry about using the wrong quote marks and it's easier to tell what the new string will be
 
 // Typeof operator
+// Typeof operators check the value to the right and returns a string of the data type
+const unknown1 'too';
+console.log(typeof unknown1) 
+// In the above example, since too is a string, typeof unknown1 will return as a string
+const unknown2 = 25;
+console.log(typeof unknown2)
+// Output will return as a number
+const unknown3 = false;
+console.log(typeof unknown3)
+// Output will return as a boolean
