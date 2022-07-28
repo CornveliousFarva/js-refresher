@@ -95,7 +95,7 @@ console.log(`I own a pet ${myPet}.`);
 // When you interpolate `I own a pet ${myPet}.`, the output is the string: 'I own a pet armadillo.'
 // The benefit of this is readability. Using template literals, you don't have to worry about using the wrong quote marks and it's easier to tell what the new string will be
 
-// Typeof operator
+// TYPEOF OPERATORS
 // Typeof operators check the value to the right and returns a string of the data type
 const unknown1 'too';
 console.log(typeof unknown1) 
